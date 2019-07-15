@@ -2,14 +2,17 @@
 import React from 'react';
 import './App.css';
 
+import TechList from './components/TechList';
+
 import reactJS from './assets/reactjs.jpg';
 
 function App() {
   return (
-    <div>
+    <>
       <img src={reactJS} />
       running...
-    </div>
+      <TechList />
+    </>
   );
 }
 
